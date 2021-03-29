@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .background{
+    padding: 180px 0 100px 0;
+    background-image: url(https://cdn.discordapp.com/attachments/824109959884177502/824850813796089866/background.jpg);
+    background-size: 1170px;
+    height: 500px;
+    top: 0;
+  }
+
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://cdn.discordapp.com/attachments/824109959884177502/824548461055705088/header.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+  }
+
+  
+
+  .top-wrapper h1, h4, p{
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .profil {
+    background-color: green;
+    margin-right: 15px;
+  }
+
+  .program{
+    background-color: transparent;
+    border: 2px solid;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
+
+  header {
+    height: 80px;
+    width: 100%;
+    background-color: transparent;
+    position :absolute;
+    text-align: center;
+    top: 0;
+    z-index: 10;
+  }
+  .logo{
+    width: 40px;
+    margin-top: 30px;
+    align-content: center;
+  }
+  .menu a{
+    line-height: 60px;
+    padding: 0 10px;
+    color: white;
+    display: inline;
+  }
+
+  .lesson-wrapper {
+    background-color: #f7f7f7;
+    color: blueviolet;
+    text-align: center;
+    padding: 100px;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: grey;
+    text-align: center;
+  }
+  
+  .lesson h3 {
+    font-weight: normal;
+    color: blue;
+  }
+
+  .fas{
+    color: blue;
+    width: 25px;
+    height: 20px;
+  }
+  
+  .lesson {
+    float: left;
+    width: 50%;
+  }
+  
+  .txt-contents {
+    width: 85%;
+    display: inline-block;
+    letter-spacing: 3px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: darkslategray;
+  }
+
+  footer img {
+    width: 40px;
+  }
+  
+  footer li {
+    color: darkslategray;
+    font-size: 12px;
+    list-style: none;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer-wrapter{
+    padding-top: 80px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  .more {
+    padding: 15px 40px;
+    background-color: green;
+    cursor: pointer;
+    box-shadow: 0 7px gray 0.5s;
+  }
+
+  .more:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
